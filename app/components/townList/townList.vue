@@ -4,9 +4,6 @@
             {{item.caption}}
         </a>
     </div>
-   <!-- <ul class="list-group" v-model="selected">
-        <li v-for="item in options" class="list-group-item" :id="item.name+'_'+item.id" :townName="item.name" v-model="options">{{item.caption}}</li>
-    </ul>-->
 </template>
 <script lang="ts" src="./townList.ts"></script>
 <style lang="css" src="./townList.css"></style>
